@@ -2,16 +2,16 @@ MPG Regression
 
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   
-  Vehicle length values has a moderate to strong correlation to the mpg value with ground clearance as the second factor that influnce the mpg
+ Vehicle length values have a moderate to strong correlation to the mpg value with ground clearance as the second factor that influence the mpg
 
 2. Is the slope of the linear model considered to be zero? Why or why not?
 
-With a p-value = 3.637e-12 which is a lot smaller that 0.05% therefore we there is sufficient evidence to reject our null hypothesis, meaning that the slope of your model is not zero
+With a p-value = 3.637e-12 which is a lot smaller than 0.05%, therefore, we there is sufficient evidence to reject our null hypothesis, meaning that the slope of your model is not zero
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 With an r-squared = 0.674 meaning that only 33% of the prediction will be correct using this model. 
-This is not a very good model to predict effectivly the mpg. 
+This is not a very good model to predict effectively the mpg. 
 
 ----------------------------------------------------------------------------------------------------
  
@@ -19,19 +19,19 @@ Suspension Coil Summary
  
 1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?
 
-With a variance of 62.29356 the current manifacturing meets the design specifications
+With a variance of 62.29356 the current manufacturing meets the design specifications
 
 ----------------------------------------------------------------------------------------------------
 
 Suspension Coil T-Test
 
-Using the one-sample t-test to determine statistical difference between the means of 
+Using the one-sample t-test to determine the statistical difference between the means of 
 Suspension Coil dataset and population mean of 15000
 
 H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
 Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
 
-Assuming our significance level was the common 0.05 percent, our p-value=0.06028 is above our significance level.
+Assuming our significance level was the common 0.05%, our p-value=0.06028 is above our significance level.
 Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
  
 ----------------------------------------------------------------------------------------------------
@@ -40,22 +40,22 @@ Design Your Own Study
 
 Write a short description of a statistical study that can quantify how the MechaCar outperforms the competition.
 
-1.Think critically about what metrics you would think would be of interest to a consumer (cost, fuel efficiency, color options, etc.)
+1. Think critically about what metrics you would think would be of interest to a consumer (cost, fuel efficiency, color options, etc.)
   - maker (categorical)
   - price (numerical)
   - fuel efficiency, mpg (numerical)
-  - hoursepower (numerical)
+  - horsepower (numerical)
   - fuel type (categorical)
   - color (categorical)
   
-2.Determine what question we would ask, what the null and alternative hypothesis would be to answer that question, and what statistical test could be used to test this hypothesis.
+2. Determine what question we would ask, what the null and alternative hypothesis would be to answer that question, and what statistical test could be used to test this hypothesis.
 
-Using a multiple regression model and price, fuel efficency and horsepower can we predict number of cars sold per month.
+Using a multiple regression model and price, fuel efficiency and horsepower can we predict the number of cars sold per month.
 
-H0: r-squared = 0, very weak correlation between independent variable and the dependent variable
+H0: r-squared = 0, very weak correlation between the independent variable and the dependent variable
 
 Ha: r-squared != 0, a correlation exists between independent variable and the dependent variable
 
 3.Knowing what test should be used, what data should be collected?
 
-Existing sales data on other cars that include price, fuel efficency and horsepower
+Existing sales data on other cars that include price, fuel efficiency and horsepower
