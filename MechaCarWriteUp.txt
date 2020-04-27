@@ -50,6 +50,12 @@ Write a short description of a statistical study that can quantify how the Mecha
   
 2.Determine what question we would ask, what the null and alternative hypothesis would be to answer that question, and what statistical test could be used to test this hypothesis.
 
+Using a multiple regression model and price, fuel efficency and horsepower can we predict number of cars sold per month.
 
+H0: r-squared = 0, very weak correlation between independent variable and the dependent variable
+
+Ha: r-squared != 0, a correlation exists between independent variable and the dependent variable
 
 3.Knowing what test should be used, what data should be collected?
+
+Existing sales data on other cars that include price, fuel efficency and horsepower
